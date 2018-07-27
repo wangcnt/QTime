@@ -1,6 +1,6 @@
 //
-//  QTimeUIBundleDelegate.h
-//  QTimeUI
+//  QTimeBundleDelegate.h
+//  QTime
 //
 //  Created by Mark on 2018/7/7.
 //  Copyright © 2018年 Mark. All rights reserved.
@@ -10,6 +10,6 @@
 
 #import <MMRuntime/MMRuntime.h>
 
-@interface QTimeUIBundleDelegate : MMBundleDelegate
+@interface QTimeBundleDelegate : MMBundleDelegate
 
 @end

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D27E9C820F0FC7A000DC002 /* QTimeUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D27E9C720F0FC7A000DC002 /* QTimeUI.framework */; };
+		4D2DD4CD210B695000BD2CCB /* QTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2DD4CC210B695000BD2CCB /* QTime.framework */; };
 		4D3443042077F1C500525B58 /* SampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3443032077F1C500525B58 /* SampleAppDelegate.m */; };
 		4D8B534A20554A0F00FB3BDF /* AnalyticsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D906CFB2049D7F0005044F0 /* AnalyticsKit.framework */; };
 		4D8B53612056C03F00FB3BDF /* MMSomething.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B53602056C03F00FB3BDF /* MMSomething.m */; };
@@ -26,11 +26,11 @@
 		4DB9560C204AA46C004F5E30 /* MMFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB9560D204AA46C004F5E30 /* MMFoundation.framework */; };
 		4DC37D9520678FBA008FCF60 /* MMChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC37D9420678FBA008FCF60 /* MMChain.m */; };
 		4DDDD8A520663B6A00E49811 /* MMDatabaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDDD8A620663B6A00E49811 /* MMDatabaseKit.framework */; };
-		4DDDD8B520663C5900E49811 /* QTimeFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D906CFE2049D7F0005044F0 /* QTimeFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D27E9C720F0FC7A000DC002 /* QTimeUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QTimeUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2DD4CC210B695000BD2CCB /* QTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3443022077F1C500525B58 /* SampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleAppDelegate.h; sourceTree = "<group>"; };
 		4D3443032077F1C500525B58 /* SampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAppDelegate.m; sourceTree = "<group>"; };
 		4D8B535F2056C03F00FB3BDF /* MMSomething.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMSomething.h; sourceTree = "<group>"; };
@@ -67,9 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D27E9C820F0FC7A000DC002 /* QTimeUI.framework in Frameworks */,
+				4D2DD4CD210B695000BD2CCB /* QTime.framework in Frameworks */,
 				4D943BC520F0FA700024FABD /* MMRuntime.framework in Frameworks */,
-				4DDDD8B520663C5900E49811 /* QTimeFoundation.framework in Frameworks */,
 				4DDDD8A520663B6A00E49811 /* MMDatabaseKit.framework in Frameworks */,
 				4D8B534A20554A0F00FB3BDF /* AnalyticsKit.framework in Frameworks */,
 				4DB9560C204AA46C004F5E30 /* MMFoundation.framework in Frameworks */,
@@ -122,6 +121,7 @@
 		4D906CF52049D7F0005044F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D2DD4CC210B695000BD2CCB /* QTime.framework */,
 				4D27E9C720F0FC7A000DC002 /* QTimeUI.framework */,
 				4D943BC420F0FA700024FABD /* MMRuntime.framework */,
 				4D943BC220F0F9860024FABD /* QTEmailUI.framework */,
@@ -360,6 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KZP9CL2A5P;
+				FRAMEWORK_SEARCH_PATHS = ../MMSDK;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = MMSamples/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -380,6 +381,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KZP9CL2A5P;
+				FRAMEWORK_SEARCH_PATHS = ../MMSDK;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = MMSamples/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

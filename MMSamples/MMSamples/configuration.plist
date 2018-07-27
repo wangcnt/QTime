@@ -7,7 +7,7 @@
 		<key>identifier</key>
 		<string>com.mark.halo.time</string>
 		<key>frameworkName</key>
-		<string>QTimeUI</string>
+		<string>QTime</string>
 	</dict>
 </dict>
 </plist>

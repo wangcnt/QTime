@@ -1,12 +1,12 @@
 //
-//  QTimeUIBundleDelegate.m
-//  QTimeUI
+//  QTimeBundleDelegate.m
+//  QTime
 //
 //  Created by Mark on 2018/7/7.
 //  Copyright © 2018年 Mark. All rights reserved.
 //
 
-#import "QTimeUIBundleDelegate.h"
+#import "QTimeBundleDelegate.h"
 
 #import <MMCoreServices/MMCoreServices.h>
 #import <QTimeFoundation/QTimeFoundation.h>
@@ -15,7 +15,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@implementation QTimeUIBundleDelegate
+@implementation QTimeBundleDelegate
 
 - (void)bundleDidLoad {
     [[QTServiceCenter sharedInstance] startService];
